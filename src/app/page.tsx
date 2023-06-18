@@ -11,7 +11,7 @@ export default function Home() {
       <div className=" flex h-screen justify-center items-center ">
         <div className="flex flex-col justify-center items-center ">
           <div>
-            <Image src={Logo} width={600} height={600} />
+            <Image src={Logo} width={600} height={600} alt="logo" />
           </div>
           <p className="text-[30px] text-[#ec0332]">Coming Soon</p>
           <Footer />

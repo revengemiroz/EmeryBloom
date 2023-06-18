@@ -11,7 +11,7 @@ export default function Index() {
     <div className="flex flex-row gap-5 justify-end p-5">
       <a href="https://www.tiktok.com/@emerybloom_" target="_blank">
         <span>
-          <Image width={20} height={20} src={Tiktok} />
+          <Image width={20} height={20} src={Tiktok} alt="Tiktok" />
         </span>
       </a>
       <a
@@ -19,7 +19,7 @@ export default function Index() {
         target="_blank"
       >
         <span>
-          <Image width={20} height={20} src={Facebook} />
+          <Image width={20} height={20} src={Facebook} alt="Facebook" />
         </span>
       </a>
       <a
@@ -27,11 +27,11 @@ export default function Index() {
         target="_blank"
       >
         <span>
-          <Image width={20} height={20} src={Instagram} />
+          <Image width={20} height={20} src={Instagram} alt="Instagram" />
         </span>
       </a>
       <span title="9806395041">
-        <Image width={20} height={20} src={Whatsapp} />
+        <Image width={20} height={20} src={Whatsapp} alt="Whatsapp" />
       </span>
     </div>
   );
